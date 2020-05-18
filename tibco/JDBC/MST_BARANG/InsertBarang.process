@@ -39,8 +39,8 @@
             </xsd:complexType>
         </xsd:element>
     </pd:endType>
-    <pd:endX>858</pd:endX>
-    <pd:endY>68</pd:endY>
+    <pd:endX>857</pd:endX>
+    <pd:endY>67</pd:endY>
     <pd:errorSchemas/>
     <pd:processVariables/>
     <pd:targetNamespace>http://xmlns.example.com/1589248642969</pd:targetNamespace>
@@ -131,7 +131,7 @@
         <pd:inputBindings>
             <root>
                 <KodeBarang>
-                    <xsl:value-of select="$Parse-JSON/ns:ActivityOutputClass/root/NamaBarang"/>
+                    <xsl:value-of select="$Parse-JSON/ns:ActivityOutputClass/root/KodeBarang"/>
                 </KodeBarang>
             </root>
         </pd:inputBindings>
